@@ -34,6 +34,6 @@ npm install
 sanity start
 ```
 
-## Install from sanity.io/create
+## Install from [sanity.io/create](https://www.sanity.io/create?template=brob/sanity-template-pure-html)
 
-Want a 1-click installer? [This link](https://www.sanity.io/create?template=brob/sanity-template-pure-html) will give you the code, initialize the Studio, and deploy both to Netlify.
+Want a 1-click installer? [This Starter link](https://www.sanity.io/create?template=brob/sanity-template-pure-html) will give you the code, initialize the Studio, and deploy both to Netlify.
