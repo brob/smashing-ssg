@@ -34,6 +34,8 @@ npm install
 sanity start
 ```
 
+4. Connect your Sanity project to the site by opening `/site/utils/SanityClient.js` and replacing `projectId` and `dataset` with the correct information created by the Sanity CLI.
+
 ## Install from [sanity.io/create](https://www.sanity.io/create?template=brob/sanity-template-pure-html)
 
 Want a 1-click installer? [This Starter link](https://www.sanity.io/create?template=brob/sanity-template-pure-html) will give you the code, initialize the Studio, and deploy both to Netlify.

@@ -10,22 +10,6 @@ function prepare() {
     }
 }
 
-function getSrcFiles(srcDir) {
-    const directory = path.join(__dirname, srcDir);
-    let fileList = []
-    // fs.readdir()
-
-    return fs.readdirSync(directory, function (err, files) {
-        if (err) {
-            return console.log('Unable to scan directory: ' + err);
-        } 
-        files.forEach(function (file) {
-            fileList.push(file) 
-        });
-    });
-
-}
-
 
 async function getSanityData() {
     const query = `{
@@ -46,12 +30,6 @@ function buildHTML(filename, data) {
     return output
 }
 
-function writeFile(destination, html) {
-    fs.writeFile(destination, html, function (err) {
-        if (err) return console.log(err);
-        console.log('index.html created');
-    });
-}
 
 async function main(src, dist) {
     prepare();
